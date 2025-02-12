@@ -16,10 +16,10 @@ jobs:
         uses: Platane/snk@master
         with:
           github_user_name: ${{ github.repository_owner }}
-          output_path: dist/snake.svg
+          svg_out_path: dist/github-contribution-grid-snake.svg  # Correction ici
 
       - name: Upload animation
         uses: actions/upload-artifact@v4  # Mise à jour vers v4
         with:
           name: snake-animation
-          path: dist/snake.svg
+          path: dist/github-contribution-grid-snake.svg
