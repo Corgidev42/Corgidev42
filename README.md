@@ -52,7 +52,7 @@
 
 ## 🎮 Fun Pixel Art Section  
 
-![GitHub Snake](https://github.com/Corgidev42/Corgidev42/blob/output/github-contribution-grid-snake.svg)
+![GitHub Snake](https://raw.githubusercontent.com/Corgidev42/Corgidev42/output/github-contribution-grid-snake.svg)
 
 ---
 
