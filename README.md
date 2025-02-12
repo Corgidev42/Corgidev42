@@ -20,7 +20,6 @@
 🎮 I am part of **Team EnV**, a development duo composed of **[Vincent](https://github.com/Corgidev42) & [Even](https://github.com/EvenZeppa)**.  
 🚀 Together, we are working on **Snake**, a multiplayer game currently in development.  
 🔗 **Check out Even's GitHub**: [github.com/EvenZeppa](https://github.com/EvenZeppa)
----
 
 ## 🔧 Tech Stack & Tools  
 
