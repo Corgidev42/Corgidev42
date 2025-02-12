@@ -13,12 +13,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Generate Snake Animation
-        uses: Platane/snk@master
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          svg_out_path: github-contribution-grid-snake.svg
+        run: |
+          docker run --rm -e GITHUB_USER_NAME=${{ github.repository_owner }} \
+          -e SVG_OUT_PATH=github-contribution-grid-snake.svg \
+          platane/snk
 
-      - name: Push Snake Animation to output branch
+      - name: Commit and Push to output branch
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
