@@ -36,9 +36,7 @@
 ## 📈 GitHub Stats  
 
 ![Vincent's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Corgidev42&show_icons=true&theme=tokyonight)  
-![GitHub Streak](https://streak-stats.demolab.com/?user=Corgidev42&theme=tokyonight)  
-![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Corgidev42&theme=tokyonight)  
-![GitHub Achievements](https://github-profile-trophy.vercel.app/?username=Corgidev42&theme=tokyonight&no-frame=true&row=1&column=7)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Corgidev42&layout=compact&theme=tokyonight)
 
 ---
 
