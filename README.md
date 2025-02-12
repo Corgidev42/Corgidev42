@@ -1,6 +1,6 @@
 # 👾 Welcome to My GitHub Profile! 👾
 
-![Banner]([https://www.behance.net/gallery/193984031/Chill-Kong](https://www.behance.net/gallery/193984031/Chill-Kong/modules/1097627163))
+![Banner](https://www.behance.net/gallery/193984031/Chill-Kong/modules/1097627163)
 
 ## 🏴‍☠️ Who Am I?
 
