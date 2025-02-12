@@ -36,7 +36,9 @@
 ## 📈 GitHub Stats  
 
 ![Vincent's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Corgidev42&show_icons=true&theme=tokyonight)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Corgidev42&layout=compact&theme=tokyonight)
+![GitHub Streak](https://streak-stats.demolab.com/?user=Corgidev42&theme=tokyonight)  
+![GitHub Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=Corgidev42&theme=tokyonight)  
+![GitHub Achievements](https://github-profile-trophy.vercel.app/?username=Corgidev42&theme=tokyonight&no-frame=true&row=1&column=7)
 
 ---
 
@@ -45,8 +47,8 @@
 | 🚀 Project | 🔗 Repo | ⭐ Stars |
 |------------|---------|----------|
 | **mylib** | [Repo](https://github.com/Corgidev42/mylib) | ![GitHub stars](https://img.shields.io/github/stars/Corgidev42/mylib?style=social) |
-| **fractol** | [Repo](https://github.com/Corgidev42/42_fractol) | ![GitHub stars](https://img.shields.io/github/stars/Corgidev42/fractol?style=social) |
-| **snake** (co-op dev) | [Repo](https://github.com/Corgidev42/Snake) | ![GitHub stars](https://img.shields.io/github/stars/EvenGithub/snake?style=social) |
+| **fract'ol** | [Repo](https://github.com/Corgidev42/42_fractol) | ![GitHub stars](https://img.shields.io/github/stars/Corgidev42/fractol?style=social) |
+| **Snake** (co-op dev) | [Repo](https://github.com/Corgidev42/Snake) | ![GitHub stars](https://img.shields.io/github/stars/EvenGithub/snake?style=social) |
 
 ---
 
@@ -63,4 +65,4 @@
 
 ---
 
-👾 *"Keep hacking, keep learning, and never stop exploring!"* 👾
+👾 *“The best way to predict the future is to code it.”* 👾
