@@ -4,11 +4,23 @@
 
 ## 🏴‍☠️ Who Am I?
 
-- 🎓 **42 Student** | Learning **System Administration & Cybersecurity**
-- 💻 Passionate about **C, Python, Linux & Low-Level Development**
-- 🔐 Interested in **Cybersecurity & Ethical Hacking**
-- 🎸 Guitarist in my free time
-https://mir-s3-cdn-cf.behance.net/project_modules/1400/f481c7193984031.65f468d9a0b5d.gif" srcset="https://mir-s3-cdn-cf.behance.net/project_modules/1400/f481c7193984031.65f468d9a0b5d.gif 1400w, https://mir-s3-cdn-cf.behance.net/project_modules/disp/f481c7193984031.65f468d9a0b5d.gif 600w, https://mir-s3-cdn-cf.behance.net/project_modules/fs/f481c7193984031.65f468d9a0b5d.gif 1920w, https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f481c7193984031.65f468d9a0b5d.gif 1200w, https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/f481c7193984031.65f468d9a0b5d.gif 2000w" sizes="(max-width: 1400px) 100vw, 1400px" class="ImageElement-image-SRv" alt="pixel Pixel art pixel jeff Retro 8bit" loading="eager" fetchpriority="high">
+👋 Hey there! I'm **Vincent**, a **42 student** passionate about **System Administration, Cybersecurity, and Development**.
+
+💻 Since I got my first computer at 10 years old, I've been fascinated by the world of computing. Debugging and solving complex problems is something I can spend hours on, driven by my curiosity and determination.  
+🎮 My interests span **video games, artificial intelligence, app & web development**, and I’m always seeking to refine my skills to find my true specialty.  
+🚀 In the future, I aspire to **join a company that shares my values**, where I can **grow, contribute, and innovate**.  
+
+✨ Thanks to **Xavier Niel's initiative**, I have the **opportunity to train at 42**, and I hope to one day contribute to one of his companies.  
+🏡 To stay productive, I carefully separate my workspaces, balancing **focused work, sports, and personal hobbies** like **music, writing, video creation, and gaming**.  
+
+---
+
+## 👨‍💻 Developer Team - EnV  
+
+🎮 I am part of **Team EnV**, a development duo composed of **[Vincent](https://github.com/Corgidev42) & [Even](https://github.com/EvenZeppa)**.  
+🚀 Together, we are working on **Snake**, a multiplayer game currently in development.  
+
+🔗 **Check out Even's GitHub**: [github.com/EvenZeppa](https://github.com/EvenZeppa)
 ---
 
 ## 🔧 Tech Stack & Tools  
@@ -25,8 +37,8 @@ https://mir-s3-cdn-cf.behance.net/project_modules/1400/f481c7193984031.65f468d9a
 
 ## 📈 GitHub Stats  
 
-![Vincent's GitHub Stats](https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&theme=tokyonight)  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YourGitHubUsername&layout=compact&theme=tokyonight)
+![Vincent's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Corgidev42&show_icons=true&theme=tokyonight)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Corgidev42&layout=compact&theme=tokyonight)
 
 ---
 
@@ -34,15 +46,23 @@ https://mir-s3-cdn-cf.behance.net/project_modules/1400/f481c7193984031.65f468d9a
 
 | 🚀 Project | 🔗 Repo | ⭐ Stars |
 |------------|---------|----------|
-| **Born2BeRoot** | [Repo](https://github.com/YourGitHubUsername/Born2BeRoot) | ![GitHub stars](https://img.shields.io/github/stars/YourGitHubUsername/Born2BeRoot?style=social) |
-| **42_libft** | [Repo](https://github.com/YourGitHubUsername/libft) | ![GitHub stars](https://img.shields.io/github/stars/YourGitHubUsername/libft?style=social) |
-| **42_printf** | [Repo](https://github.com/YourGitHubUsername/ft_printf) | ![GitHub stars](https://img.shields.io/github/stars/YourGitHubUsername/ft_printf?style=social) |
+| **mylib** | [Repo](https://github.com/Corgidev42/mylib) | ![GitHub stars](https://img.shields.io/github/stars/Corgidev42/mylib?style=social) |
+| **fractol** | [Repo](https://github.com/Corgidev42/42_fractol) | ![GitHub stars](https://img.shields.io/github/stars/Corgidev42/fractol?style=social) |
+| **snake** (co-op dev) | [Repo](https://github.com/Corgidev42/Snake) | ![GitHub stars](https://img.shields.io/github/stars/EvenGithub/snake?style=social) |
 
 ---
 
 ## 🎮 Fun Pixel Art Section  
 
+![GitHub Snake](https://github.com/Corgidev42/Corgidev42/blob/output/github-contribution-grid-snake.svg)
 
-![GitHub Snake](https://github.com/YourGitHubUsername/YourGitHubUsername/blob/output/github-contribution-grid-snake.svg)
+---
 
-![My GIF](https://x.com/i/status/1836844013502255355)
+## 📫 Reach Me  
+
+📧 **Email**: vbonnard.dev@gmail.com  
+🔗 **LinkedIn**: [YourLinkedInProfile](https://www.linkedin.com/in/vincent-bonnard-2a378233a/)  
+
+---
+
+👾 *"Keep hacking, keep learning, and never stop exploring!"* 👾
