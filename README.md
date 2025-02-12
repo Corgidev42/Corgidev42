@@ -1,6 +1,6 @@
 # 👾 Welcome to My GitHub Profile! 👾
 
-![Banner](https://www.behance.net/gallery/193984031/Chill-Kong/modules/1097627163)
+![Banner](https://mir-s3-cdn-cf.behance.net/project_modules/1400/f481c7193984031.65f468d9a0b5d.gif)
 
 ## 🏴‍☠️ Who Am I?
 
@@ -8,7 +8,7 @@
 - 💻 Passionate about **C, Python, Linux & Low-Level Development**
 - 🔐 Interested in **Cybersecurity & Ethical Hacking**
 - 🎸 Guitarist in my free time
-
+https://mir-s3-cdn-cf.behance.net/project_modules/1400/f481c7193984031.65f468d9a0b5d.gif" srcset="https://mir-s3-cdn-cf.behance.net/project_modules/1400/f481c7193984031.65f468d9a0b5d.gif 1400w, https://mir-s3-cdn-cf.behance.net/project_modules/disp/f481c7193984031.65f468d9a0b5d.gif 600w, https://mir-s3-cdn-cf.behance.net/project_modules/fs/f481c7193984031.65f468d9a0b5d.gif 1920w, https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f481c7193984031.65f468d9a0b5d.gif 1200w, https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/f481c7193984031.65f468d9a0b5d.gif 2000w" sizes="(max-width: 1400px) 100vw, 1400px" class="ImageElement-image-SRv" alt="pixel Pixel art pixel jeff Retro 8bit" loading="eager" fetchpriority="high">
 ---
 
 ## 🔧 Tech Stack & Tools  
