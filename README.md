@@ -19,7 +19,6 @@
 
 🎮 I am part of **Team EnV**, a development duo composed of **[Vincent](https://github.com/Corgidev42) & [Even](https://github.com/EvenZeppa)**.  
 🚀 Together, we are working on **Snake**, a multiplayer game currently in development.  
-
 🔗 **Check out Even's GitHub**: [github.com/EvenZeppa](https://github.com/EvenZeppa)
 ---
 
@@ -61,7 +60,7 @@
 ## 📫 Reach Me  
 
 📧 **Email**: vbonnard.dev@gmail.com  
-🔗 **LinkedIn**: [YourLinkedInProfile](https://www.linkedin.com/in/vincent-bonnard-2a378233a/)  
+🔗 **LinkedIn**: [Vincent Bonnard](https://www.linkedin.com/in/vincent-bonnard-2a378233a/)  
 
 ---
 
