@@ -40,3 +40,6 @@
 ---
 
 ## 🎮 Fun Pixel Art Section  
+
+
+![GitHub Snake](https://github.com/YourGitHubUsername/YourGitHubUsername/blob/output/github-contribution-grid-snake.svg)
