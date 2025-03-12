@@ -15,7 +15,7 @@
 
 ---
 
-## 👨‍💻 Developer Team -  [![Logo eve](https://github.com/user/repo/blob/main/image.svg)](https://github.com/eve-enterprise)
+## 👨‍💻 Developer Team -  [![Logo eve](https://github.com/eve-enterprise/eve-enterprise/blob/main/logo_eve.svg)](https://github.com/eve-enterprise)
 
 🎮 EVE is a development team composed of Vincent & Even, born at 42 Perpignan, a school where peer-to-peer learning shapes autonomous and creative developers.
 
