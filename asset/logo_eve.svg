@@ -1,0 +1,13 @@
+<svg viewBox="0 0 100 73.5" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <rect x="3" y="30.5" width="94" height="64"
+      rx="10" ry="10"
+      stroke="white" fill="transparent" stroke-width="4.5"
+      stroke-dasharray="0 53 3 316"
+      transform="rotate(-180, 50, 50)">
+    <animate attributeName="stroke-dasharray" to="0 53 316 316" dur="2.5s" fill="freeze" />
+  </rect>
+  <circle cx="32%" cy="94.5%" r="3.5" fill="white" />
+  <text class="font" x="60%" y="98%" fill="white" font-size="30" font-family="montserrat" text-anchor="middle">
+    eve
+  </text>
+</svg>
