@@ -15,7 +15,7 @@
 
 ---
 
-## 👨‍💻 Developer Team -  # <img src="https://github.com/eve-enterprise/eve-enterprise/blob/main/logo_eve.svg" style="width: 50px;"> – Extension of Virtual Exploration
+## <img src="https://github.com/eve-enterprise/eve-enterprise/blob/main/logo_eve.svg" style="width: 50px;"> – Extension of Virtual Exploration - Developer Team
 
 🎮 EVE is a development team composed of Vincent & Even, born at 42 Perpignan, a school where peer-to-peer learning shapes autonomous and creative developers.
 
