@@ -15,21 +15,35 @@
 
 ---
 
-## 👨‍💻 Developer Team - EnV  
+## 👨‍💻 Developer Team - eve  
 
-🎮 I am part of **Team EnV**, a development duo composed of **[Vincent](https://github.com/Corgidev42) & [Even](https://github.com/EvenZeppa)**.  
-🚀 Together, we are working on **Snake**, a multiplayer game currently in development.  
-🔗 **Check out Even's GitHub**: [github.com/EvenZeppa](https://github.com/EvenZeppa)
+🎮 EVE is a development team composed of Vincent & Even, born at 42 Perpignan, a school where peer-to-peer learning shapes autonomous and creative developers.
 
-## 🔧 Tech Stack & Tools  
+🚀 From our first steps on CryptX to the initial version of Snake, we structured our collaboration under the EVE (Even & Vincent) banner. More than just a duo of developers, we have made EVE a laboratory of ideas, a space for experimentation where we explore, learn, and create without limits.
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![MacOS](https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+🔗 **Check out Even’s GitHub**: [https://github.com/EvenZeppa]
+
+---
+
+## 🔧 Tech Stack & Outils
+
+💻 **Langages de programmation**
+
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![SSH](https://img.shields.io/badge/SSH-24C2F3?style=for-the-badge&logo=ssh&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Makefile](https://img.shields.io/badge/Makefile-1E90FF?style=for-the-badge&logo=cmake&logoColor=white)
+
+🧠 **IA, Génération d’images & Prompt Engineering**
+
+![ComfyUI](https://img.shields.io/badge/ComfyUI-FF9800?style=for-the-badge&logo=artstation&logoColor=white)
+![Stable Diffusion](https://img.shields.io/badge/Stable%20Diffusion-3A3A3A?style=for-the-badge&logo=stablediffusion&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-0078D4?style=for-the-badge&logo=openai&logoColor=white)
+
+📢 **Communication & Gestion de projet**
+
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 
 ---
 
