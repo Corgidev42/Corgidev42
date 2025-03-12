@@ -6,16 +6,16 @@
 
 👋 Hey there! I'm **Vincent**, a **42 student** passionate about **System Administration, Cybersecurity, and Development**.
 
-💻 Since I got my first computer at 10 years old, I've been fascinated by the world of computing. Debugging and solving complex problems is something I can spend hours on, driven by my curiosity and determination.  
-🎮 My interests span **video games, artificial intelligence, app & web development**, and I’m always seeking to refine my skills to find my true specialty.  
-🚀 In the future, I aspire to **join a company that shares my values**, where I can **grow, contribute, and innovate**.  
+💻 Since I got my first computer at 10 years old, I've been fascinated by the world of computing. Debugging and solving complex problems is something I can spend hours on, driven by my curiosity and determination.
+🎮 My interests span **video games, artificial intelligence, app & web development**, and I’m always seeking to refine my skills to find my true specialty.
+🚀 In the future, I aspire to **join a company that shares my values**, where I can **grow, contribute, and innovate**.
 
-✨ Thanks to **Xavier Niel's initiative**, I have the **opportunity to train at 42**, and I hope to one day contribute to one of his companies.  
-🏡 To stay productive, I carefully separate my workspaces, balancing **focused work, sports, and personal hobbies** like **music, writing, video creation, and gaming**.  
+✨ Thanks to **Xavier Niel's initiative**, I have the **opportunity to train at 42**, and I hope to one day contribute to one of his companies.
+🏡 To stay productive, I carefully separate my workspaces, balancing **focused work, sports, and personal hobbies** like **music, writing, video creation, and gaming**.
 
 ---
 
-## 👨‍💻 Developer Team - eve  
+## 👨‍💻 Developer Team - eve
 
 🎮 EVE is a development team composed of Vincent & Even, born at 42 Perpignan, a school where peer-to-peer learning shapes autonomous and creative developers.
 
@@ -47,14 +47,14 @@
 
 ---
 
-## 📈 GitHub Stats  
+## 📈 GitHub Stats
 
-![Vincent's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Corgidev42&show_icons=true&theme=tokyonight)  
+![Vincent's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Corgidev42&show_icons=true&theme=tokyonight)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Corgidev42&layout=compact&theme=tokyonight)
 
 ---
 
-## 🌟 Featured Projects  
+## 🌟 Featured Projects
 
 | 🚀 Project | 🔗 Repo | ⭐ Stars |
 |------------|---------|----------|
@@ -70,10 +70,10 @@
 
 ---
 
-## 📫 Reach Me  
+## 📫 Reach Me
 
-📧 **Email**: vbonnard.dev@gmail.com  
-🔗 **LinkedIn**: [Vincent Bonnard](https://www.linkedin.com/in/vincent-bonnard-2a378233a/)  
+📧 **Email**: vbonnard.dev@gmail.com
+🔗 **LinkedIn**: [Vincent Bonnard](https://www.linkedin.com/in/vincent-bonnard-2a378233a/)
 
 ---
 ![](https://raw.githubusercontent.com/Corgidev42/Corgidev42/main/outerwild.gif)
