@@ -1,0 +1,90 @@
+# Met à jour le serpent (branche output) et les cartes stats (SVG sur main).
+#
+# Déclencheurs :
+# - push sur main, cron, exécution manuelle
+# - repository_dispatch (type profile-update) : à appeler depuis d'autres dépôts
+#
+# Pour rafraîchir le profil après chaque push ailleurs, ajoute ce job dans chaque
+# autre dépôt (avec un PAT classic : scope "repo", secret ex. PROFILE_DISPATCH_PAT) :
+#
+#   on:
+#     push:
+#       branches: [main, master]
+#   jobs:
+#     notify-profile:
+#       runs-on: ubuntu-latest
+#       steps:
+#         - uses: peter-evans/repository-dispatch@v3
+#           with:
+#             token: ${{ secrets.PROFILE_DISPATCH_PAT }}
+#             repository: ${{ github.repository_owner }}/${{ github.repository_owner }}
+#             event-type: profile-update
+
+name: Profile — snake & stats
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+  repository_dispatch:
+    types: [profile-update]
+
+concurrency:
+  group: profile-automation
+  cancel-in-progress: true
+
+jobs:
+  snake:
+    name: GitHub Commit Adventure (snake SVG)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  readme-stats:
+    name: Cartes stats (SVG)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: stats-organization/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: stats-organization/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&langs_count=8&hide_border=true
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit des SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git diff --staged --quiet && exit 0
+          git commit -m "chore: mise à jour des cartes stats du profil"
+          git push
