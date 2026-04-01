@@ -1,9 +1,6 @@
 ---
-description: Mise à jour du README profil GitHub (stacks, automation)
-globs: README.md
-alwaysApply: false
+alwaysApply: true
 ---
-
 # README profil (`Corgidev42/Corgidev42`)
 
 Ce dépôt est la page d’accueil GitHub : `README.md` à la racine.
