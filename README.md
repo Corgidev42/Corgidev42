@@ -79,8 +79,11 @@ J’aime construire des outils **fiables** et **maintenables**, du prototype à 
 
 ## 🌟 Projets mis en avant
 
+*Le dépôt du premier projet est sur le compte d’un membre de l’équipe ; le reste du groupe y contribue comme sur les autres livrables 42.*
+
 | Projet | Repo | ⭐ |
 |--------|------|---|
+| **Meditation Transcendentale** (ft_transcendence) | [KuroeProg/Meditation_Transcendentale](https://github.com/KuroeProg/Meditation_Transcendentale) | ![stars](https://img.shields.io/github/stars/KuroeProg/Meditation_Transcendentale?style=social) |
 | **TopQuizz** | [Corgidev42/TopQuizz](https://github.com/Corgidev42/TopQuizz) | ![stars](https://img.shields.io/github/stars/Corgidev42/TopQuizz?style=social) |
 | **42_ft_irc** | [EvenZeppa/42_ft_irc](https://github.com/EvenZeppa/42_ft_irc) | ![stars](https://img.shields.io/github/stars/EvenZeppa/42_ft_irc?style=social) |
 | **GitAr** | [Corgidev42/GitAr](https://github.com/Corgidev42/GitAr) | ![stars](https://img.shields.io/github/stars/Corgidev42/GitAr?style=social) |
