@@ -1,4 +1,5 @@
 # Met à jour le serpent (branche output) et les cartes stats (SVG sur main).
+# Les cartes sont générées par tools/build-profile.mjs --stats, au design du portfolio.
 #
 # Déclencheurs :
 # - push sur main, cron, exécution manuelle
@@ -47,8 +48,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#ff4d8d&color_dots=#ebedf0,#ffe3b0,#ffcb6b,#ffb224,#c98a1c
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#ff4d8d&color_dots=#161b22,#4a3410,#8a5f14,#c98a1c,#ffb224
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
@@ -58,33 +59,29 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   readme-stats:
-    name: Cartes stats (SVG)
+    name: Cartes d'activité (SVG)
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
 
-      - uses: stats-organization/github-readme-stats-action@v1
+      - uses: actions/setup-node@v4
         with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          node-version: 22
 
-      - uses: stats-organization/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&langs_count=8&hide_border=true
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+      # Données publiques via l'API REST : le GITHUB_TOKEN par défaut suffit (pas de PAT).
+      - name: Génération des cartes
+        run: node tools/build-profile.mjs --stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit des SVG
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
+          git add profile/ui/stats.svg profile/ui/langs.svg
           git diff --staged --quiet && exit 0
-          git commit -m "chore: mise à jour des cartes stats du profil"
+          git commit -m "chore: mise à jour des cartes d'activité du profil"
           git push

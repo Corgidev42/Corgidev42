@@ -5,10 +5,17 @@ alwaysApply: true
 
 Ce dépôt est la page d’accueil GitHub : `README.md` à la racine.
 
-## Stacks (badges)
+## Visuels (même design que le portfolio corgidev42.github.io)
 
-- Quand un **nouveau langage ou outil** apparaît dans tes projets (`~/Documents/Workspace`, `~/Documents/Workspace-eve` en ignorant `eve-dev-env` et gros `node_modules`), **ajoute le badge shields.io** dans la section adaptée du README, sans inventer une techno que tu n’utilises pas.
-- Retire les badges qui ne correspondent plus à ta pratique.
+- Bannière, titres de section, cartes projets, panneaux de stack, jauges et boutons sont des SVG **générés** dans `profile/ui/` par `tools/build-profile.mjs`. Ne pas les modifier à la main.
+- Tout le contenu (projets mis en avant, stack, lignes du terminal) se modifie en tête de `tools/build-profile.mjs`, puis :
+  ```bash
+  node tools/build-profile.mjs
+  ```
+- Quand un **nouveau langage ou outil** apparaît dans tes projets (`~/Documents/Workspace`, `~/Documents/Workspace-eve` en ignorant `eve-dev-env` et gros `node_modules`), ajoute-le au tableau `STACK` du script, sans inventer une techno que tu n'utilises pas. Retire ce qui ne correspond plus à ta pratique.
+- Les icônes pixel-art viennent de `tools/icons.mjs` (mêmes grilles que le portfolio).
+- `profile/ui/stats.svg` et `profile/ui/langs.svg` sont régénérés par la CI (`node tools/build-profile.mjs --stats`) à partir de l'API GitHub publique.
+- Les textes alternatifs (`alt`) des images du README reprennent le contenu des cartes : les mettre à jour en même temps.
 
 ## Après une modification du README (ou du workflow profil)
 

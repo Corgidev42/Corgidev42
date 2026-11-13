@@ -1,110 +1,97 @@
-# Vincent Bonnard
+<!-- Les visuels de profile/ui/ sont générés : node tools/build-profile.mjs -->
 
-![Banner](https://mir-s3-cdn-cf.behance.net/project_modules/1400/f481c7193984031.65f468d9a0b5d.gif)
+<a href="https://corgidev42.github.io/"><img src="profile/ui/hero.svg" width="100%" alt="Vincent Bonnard — Développeur C++ / Systèmes &amp; FullStack, Montpellier. Disponible en CDI."></a>
 
-## À propos
+<p align="center">
+  <a href="https://corgidev42.github.io/"><img src="profile/ui/btn-portfolio.svg" height="44" alt="Portfolio"></a>&nbsp;
+  <a href="https://www.linkedin.com/in/vincent-bonnard-42dev"><img src="profile/ui/btn-linkedin.svg" height="44" alt="LinkedIn"></a>&nbsp;
+  <a href="mailto:vbonnard.dev@gmail.com"><img src="profile/ui/btn-mail.svg" height="44" alt="E-mail"></a>&nbsp;
+  <a href="https://github.com/42-eve"><img src="profile/ui/btn-eve.svg" height="44" alt="Collectif EVE"></a>
+</p>
 
-Développeur en formation à **[42](https://42.fr/)**, orienté **système**, **réseaux** et **développement logiciel** : du code bas niveau (C, C++) aux applications web (React, écosystème TypeScript) et aux environnements conteneurisés (Docker, CI/CD).
+<img src="profile/ui/h-about.svg" width="100%" alt="01 — À propos">
 
-J’aime construire des outils **fiables** et **maintenables**, du prototype à la mise en conditions plus proches de la prod (Docker Compose, services web, caches).
+Développeur formé à l'**[École 42](https://42.fr/)** (campus de Perpignan), j'ai appris à coder en construisant : un shell, un serveur IRC, un moteur de raycasting, une plateforme d'échecs temps réel. Pas de cours magistraux — des projets, des revues par les pairs et des normes strictes.
 
----
+Mon terrain de jeu préféré est le **bas niveau** : gestion mémoire, sockets, threads, protocoles. C'est ce que j'ai mis en pratique en **C++17 et Qt 6 / QML sur Linux embarqué**, de l'architecture logicielle jusqu'à l'intégration matérielle.
 
-## EVE — Extension of Virtual Exploration
+Je reste **polyvalent** — React et TypeScript côté interface, Django, FastAPI ou Python côté service, Docker pour que tout tourne partout — et j'assume un **workflow assisté par IA** (Cursor, LLM) : un pair pour explorer, tester et documenter plus vite ; l'architecture, la relecture et la validation restent les miennes.
 
-<img src="https://raw.githubusercontent.com/eve-enterprise/eve-enterprise/main/logo_eve.svg" alt="EVE" width="48" />
+**Je recherche un CDI à Montpellier.** Tout le détail est sur mon portfolio : **[corgidev42.github.io](https://corgidev42.github.io/)**
 
-**EVE**, c’est le collectif que nous avons monté avec **Even** à 42 Perpignan : projets communs, binômes et expérimentation sur des sujets variés.
+<img src="profile/ui/h-experience.svg" width="100%" alt="02 — Expérience">
 
-**Even :** [github.com/EvenZeppa](https://github.com/EvenZeppa)
+**Développeur systèmes &amp; applicatif — GameSide** · stage de 6 mois · 2026 · Perpignan / télétravail Montpellier
 
----
+`C++17` `Qt 6 / QML` `Linux embarqué` `Raspberry Pi 4` `REST / JSON` `UDP / TCP` `QTest`
 
-## 🔧 Stack & outils
+- **Borne photo interactive** — application Qt 6 / QML + C++17 conçue de bout en bout : machine à états du parcours joueur (badge RFID), intégration d'API REST, composition d'images 1920×1080 via QPainter, spool asynchrone tolérant aux pannes réseau, consentement RGPD.
+- **Contrôleur de salles LED &amp; arcade** — reverse engineering de protocoles matériels propriétaires (UDP), réécriture en C++ / Qt 6, couche d'abstraction matérielle pour matrices LED et capteurs de sol (15×40 dalles).
+- **Cible embarquée** — optimisation de jeux Qt / QML sous contrainte CPU / GPU, scripts de déploiement et documentation d'architecture (ADR / ICD).
 
-*(Alignée sur les projets récents : TopQuizz, GitAr, PharmAI, Inception, irc, transcendence, etc.)*
+> Code propriétaire : seules l'architecture et les technologies sont présentées ici.
 
-**Langages & tooling**
+<img src="profile/ui/h-projects.svg" width="100%" alt="03 — Projets phares">
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Makefile](https://img.shields.io/badge/Makefile-427819?style=for-the-badge&logo=gnu&logoColor=white)
+<p align="center">
+  <a href="https://github.com/KuroeProg/Meditation_Transcendentale"><img src="profile/ui/card-transcendence.svg" width="400" alt="Meditation Transcendentale (ft_transcendence) — plateforme d'échecs multijoueur temps réel. React 19, Django ASGI, WebSockets, PostgreSQL, Redis, Docker."></a>
+  <a href="https://github.com/Corgidev42/42_ft_irc"><img src="profile/ui/card-ft-irc.svg" width="400" alt="ft_irc — serveur IRC en C++ : epoll, grammaire BNF, command pattern. C++17, sockets TCP, CMake, Docker."></a>
+  <a href="https://github.com/Corgidev42/42_minishell"><img src="profile/ui/card-minishell.svg" width="400" alt="minishell — un shell façon Bash écrit en C : AST, pipes, redirections, heredocs, signaux."></a>
+  <a href="https://github.com/EvenZeppa/cub3D"><img src="profile/ui/card-cub3d.svg" width="400" alt="cub3D — moteur de raycasting en C. MiniLibX, algorithme DDA."></a>
+  <a href="https://github.com/Corgidev42/TopQuizz"><img src="profile/ui/card-topquizz.svg" width="400" alt="TopQuizz — quiz événementiel propulsé par IA. FastAPI, React, Socket.IO, Docker, Gemini / Ollama."></a>
+  <a href="https://github.com/Corgidev42/Inception"><img src="profile/ui/card-inception.svg" width="400" alt="Inception — infrastructure Docker : Nginx TLS, WordPress, MariaDB, Redis."></a>
+</p>
 
-**Web & front**
+Aussi sur GitHub : [GitAr](https://github.com/Corgidev42/GitAr) (LMS guitare, Next.js) · [PharmAI](https://github.com/Corgidev42/PharmAI) (jeu de révision, React) · [Mnemos](https://github.com/Corgidev42/Mnemos) (app de bureau, Python) · [Snake Together](https://github.com/42-eve/Snake) (C / SDL2) · [philosophers](https://github.com/Corgidev42/42_philosophers) (threads POSIX) · [Smart Calendar](https://github.com/Corgidev42/smart-calendar-gemini) (extension Raycast).
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
+<sub>Certains dépôts d'équipe sont hébergés sur le compte d'un coéquipier ; j'y contribue comme sur les autres livrables 42. Les 17 projets sont détaillés sur le <a href="https://corgidev42.github.io/#projets">portfolio</a>.</sub>
 
-**API & données**
+<img src="profile/ui/h-stack.svg" width="100%" alt="04 — Stack">
 
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+<p align="center">
+  <img src="profile/ui/stack-lang.svg" width="400" alt="Langages : C++17, C, QML, Python, TypeScript, JavaScript, SQL, HTML / CSS, Bash, PowerShell.">
+  <img src="profile/ui/stack-fw.svg" width="400" alt="Frameworks et API : Qt 6 / Qt Quick, C++ STL, REST / JSON, React, Django / ASGI, FastAPI, Node.js, WebSockets, OpenCV, API OpenAI / Gemini.">
+  <img src="profile/ui/stack-sys.svg" width="400" alt="Systèmes et réseau : Linux, sockets UDP / TCP, multithreading, embarqué (Raspberry Pi 4), macOS, PostgreSQL, Redis, Nginx.">
+  <img src="profile/ui/stack-tools.svg" width="400" alt="Outillage et méthodes : Git, CMake / Makefile, Docker, Cursor / LLM, QTest, tests E2E, CI / CD, reverse engineering, peer review.">
+</p>
 
-**Système & déploiement**
+<sub>Étiquette pleine = utilisé au quotidien en entreprise ou sur les projets majeurs.</sub>
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+<img src="profile/ui/h-offcode.svg" width="100%" alt="05 — Off-code">
 
-**IA (API & local)**
+<p align="center">
+  <img src="profile/ui/stat-hike.svg" width="400" alt="Randonnée — endurance, autonomie, rigueur.">
+  <img src="profile/ui/stat-gym.svg" width="400" alt="Musculation et sport — régularité, progression mesurée.">
+  <img src="profile/ui/stat-games.svg" width="400" alt="Jeux vidéo et game dev — conception, mécaniques, moteurs.">
+  <img src="profile/ui/stat-board.svg" width="400" alt="Jeux de société — stratégie, logique, règles.">
+</p>
 
-![Google Gemini](https://img.shields.io/badge/Google_Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+<img src="asset/logo_eve.svg" alt="" width="28" align="left"> **EVE — Extension of Virtual Exploration** : le collectif monté avec [Even Zeppa](https://github.com/EvenZeppa) à 42 Perpignan. Projets communs, binômes et expérimentation sans barrières → [github.com/42-eve](https://github.com/42-eve)
 
-**Collaboration**
+<img src="profile/ui/h-activity.svg" width="100%" alt="06 — Activité GitHub">
 
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
+<p align="center">
+  <img src="profile/ui/stats.svg" width="400" alt="GitHub en chiffres : dépôts publics, commits de l'année, pull requests, étoiles, abonnés.">
+  <img src="profile/ui/langs.svg" width="400" alt="Langages des dépôts publics : C, C++, TypeScript, Python, Shell, JavaScript.">
+</p>
 
----
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Corgidev42/Corgidev42/output/github-contribution-grid-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/Corgidev42/Corgidev42/output/github-contribution-grid-snake.svg" width="100%" alt="Serpent parcourant le calendrier de contributions">
+  </picture>
+</p>
 
-## 📈 Statistiques GitHub
+<img src="profile/ui/h-contact.svg" width="100%" alt="07 — Contact">
 
-![Statistiques GitHub de Vincent](https://raw.githubusercontent.com/Corgidev42/Corgidev42/main/profile/stats.svg)
-![Top Langages](https://raw.githubusercontent.com/Corgidev42/Corgidev42/main/profile/top-langs.svg)
+<table>
+  <tr><td><b>Portfolio</b></td><td><a href="https://corgidev42.github.io/">corgidev42.github.io</a></td></tr>
+  <tr><td><b>E-mail</b></td><td><a href="mailto:vbonnard.dev@gmail.com">vbonnard.dev@gmail.com</a></td></tr>
+  <tr><td><b>LinkedIn</b></td><td><a href="https://www.linkedin.com/in/vincent-bonnard-42dev">in/vincent-bonnard-42dev</a></td></tr>
+  <tr><td><b>Localisation</b></td><td>Montpellier · Permis B, véhiculé</td></tr>
+</table>
 
----
-
-## 🌟 Projets mis en avant
-
-*Le dépôt du premier projet est sur le compte d’un membre de l’équipe ; le reste du groupe y contribue comme sur les autres livrables 42.*
-
-| Projet | Repo | ⭐ |
-|--------|------|---|
-| **Meditation Transcendentale** (ft_transcendence) | [KuroeProg/Meditation_Transcendentale](https://github.com/KuroeProg/Meditation_Transcendentale) | ![stars](https://img.shields.io/github/stars/KuroeProg/Meditation_Transcendentale?style=social) |
-| **TopQuizz** | [Corgidev42/TopQuizz](https://github.com/Corgidev42/TopQuizz) | ![stars](https://img.shields.io/github/stars/Corgidev42/TopQuizz?style=social) |
-| **42_ft_irc** | [EvenZeppa/42_ft_irc](https://github.com/EvenZeppa/42_ft_irc) | ![stars](https://img.shields.io/github/stars/EvenZeppa/42_ft_irc?style=social) |
-| **GitAr** | [Corgidev42/GitAr](https://github.com/Corgidev42/GitAr) | ![stars](https://img.shields.io/github/stars/Corgidev42/GitAr?style=social) |
-| **PharmAI** | [Corgidev42/PharmAI](https://github.com/Corgidev42/PharmAI) | ![stars](https://img.shields.io/github/stars/Corgidev42/PharmAI?style=social) |
-| **Inception** | [Corgidev42/Inception](https://github.com/Corgidev42/Inception) | ![stars](https://img.shields.io/github/stars/Corgidev42/Inception?style=social) |
-
----
-
-## 🔥 GitHub Commit Adventure
-
-![GitHub Snake](https://raw.githubusercontent.com/Corgidev42/Corgidev42/output/github-contribution-grid-snake-dark.svg)
-
----
-
-## 📫 Contact
-
-**Email :** vbonnard.dev@gmail.com  
-**LinkedIn :** [Vincent Bonnard](https://www.linkedin.com/in/vincent-bonnard-2a378233a/)
-
----
-
-![](https://raw.githubusercontent.com/Corgidev42/Corgidev42/main/outerwild.gif)
-
-*« On apprend vite ce qu’on construit lentement. »*
+<p align="center">
+  <img src="asset/outerwild.gif" width="400" alt=""><br>
+  <em>« On apprend vite ce qu'on construit lentement. »</em>
+</p>
